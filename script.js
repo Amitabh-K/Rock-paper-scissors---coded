@@ -1,3 +1,7 @@
+var useWantsToPlay = true;
+
+while (useWantsToPlay){
+    
 var compChoices = ["r", "p", "s"]
 
 var randomNumber = Math.floor(Math.random()*3);
@@ -32,3 +36,5 @@ alert('you lose');
 
 
 
+
+}
